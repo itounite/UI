@@ -265,7 +265,7 @@ function ComingSoon() {
             boxShadow: hovered ? btnGlow : 'none',
           }}
         >
-          Read White Paper
+          Read Think Upstream
         </button>
 
         <div className="mt-8 flex items-center gap-2">
@@ -305,13 +305,13 @@ function ComingSoon() {
 /* ───────────────────────── WHITE PAPER ───────────────────────── */
 
 const TOC = [
-  { id: 'introduction', label: 'Introduction: The Crisis of Thought' },
-  { id: 'landscape', label: 'The Intellectual Landscape' },
-  { id: 'premises', label: 'Challenging the Fundamental Premises' },
-  { id: 'operations', label: 'How We Operate' },
-  { id: 'endowment', label: 'A New Standard for Endowment Returns' },
-  { id: 'conclusion', label: 'Conclusion' },
-  { id: 'authors', label: 'About the Authors' },
+  { id: 'where-thoughts', label: 'Where Do Thoughts Come From?' },
+  { id: 'losing-agency', label: 'Losing Agency of Thought' },
+  { id: 'finance-disconnect', label: 'The Finance Disconnect' },
+  { id: 'institutions-fail', label: 'Why Existing Institutions Fail' },
+  { id: 'esg-lip-service', label: 'ESG: Lip Service' },
+  { id: 'think-upstream', label: 'Think Upstream' },
+  { id: 'thought-initiators', label: 'Upstream Thought Initiators' },
 ]
 
 function WhitePaper() {
@@ -356,10 +356,10 @@ function WhitePaper() {
         <p className="uppercase mb-8"
           style={{ color: s.muted, fontSize: '0.625rem', letterSpacing: '0.3em', fontWeight: 600 }}
         >
-          White Paper
+          Think Upstream
         </p>
         <h1 style={{ fontSize: 'clamp(1.75rem, 4.5vw, 3.25rem)', fontWeight: 700, letterSpacing: '-0.01em', lineHeight: 1.2 }}>
-          Thinking Upstream
+          Where Do Thoughts Come From?
         </h1>
         <p className="mt-5 max-w-lg mx-auto"
           style={{ color: s.muted, fontSize: 'clamp(0.8125rem, 1.3vw, 1rem)', fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.65 }}
@@ -408,94 +408,70 @@ function WhitePaper() {
         className="max-w-2xl mx-auto px-6 md:px-12 pb-32"
         style={{ fontSize: 'clamp(0.9375rem, 1.15vw, 1.0625rem)', fontWeight: 300, lineHeight: 1.85, color: s.text }}
       >
-        <WPSection id="introduction" title="Introduction: The Crisis of Thought">
-          <p>The physicist and philosopher David Bohm argued that humanity&rsquo;s deepest crises are not primarily technical or political&mdash;they are crises of &ldquo;thought.&rdquo; He observed that thought is a system: fragments of the past that we project onto the present, mistakenly believing we are engaging directly with reality.</p>
-          <p>Modern economics is a profound symptom of this crisis. It is built on a classical, Newtonian paradigm that treats the economy as a machine made of isolated parts&mdash;firms, consumers, resources&mdash;that can be optimized independently. This mechanical worldview has generated unprecedented technological advancement, but it has done so by treating social fragmentation and ecological degradation as acceptable externalities.</p>
-          <p>To solve the systemic crises of the 21st century, we cannot simply optimize the old machine. We must change the nature of the thought that built it.</p>
-          <p>The Upstream Institute exists to generate an entirely new school of thought. We are not merely a think tank producing papers, nor are we a traditional investment fund. We are an integrated ecosystem uniting deep quantum philosophy, population-scale policy research, and the real-world execution of capital. We exist to fundamentally reimagine the roles of the state, the financier, the individual, and nature.</p>
+        <WPSection id="where-thoughts" title="Where Do Thoughts Come From?">
+          <p>Where do thoughts come from? How do thoughts define the physical world we live in? Do we even think critically about our thoughts before jumping on the bandwagon to research basic sciences, innovate, create, and scale technologies, or even finance the sciences and technologies and seek returns from that?</p>
+          <p>As David Bohm eloquently put it,</p>
+          <blockquote className="my-6 pl-5 italic" style={{ borderLeft: `1px solid ${s.divider}`, color: s.muted }}>
+            <p>&ldquo;Thought is the ultimate origin or source; if we don&rsquo;t do anything about thought, we won&rsquo;t get anywhere. We may momentarily relieve the population problem, the ecological problem, and so on, but they will come back in another way.&rdquo;</p>
+          </blockquote>
+          <p>Thought is the starting point; if we put thought out of the window while trying to do research, innovate, or create something, we are not really going beyond the thought that is already embedded in our conscious/unconscious mind, and that affects everything; hence, the abstractions we get out of the thoughts will be affected, and hence overall perception will be affected too.</p>
         </WPSection>
 
-        <WPSection id="landscape" title="The Intellectual Landscape: Why Existing Institutions Fail">
-          <p>The global landscape is saturated with think tanks, research institutes, and impact funds. Yet, none possess the philosophical foundation or the structural integration required to shift economic paradigms.</p>
-          <WPSubSection title="The Orthodox Free-Market Tanks (e.g., The Hoover Institution, Cato Institute)">
-            <p>These institutions operate firmly within the Newtonian paradigm. They view the economy as a mechanistic system of independent agents. Their policy prescriptions&mdash;deregulation, privatization, minimal state intervention&mdash;optimize for aggregate growth while treating ecological and social decay as the cost of doing business. They challenge the role of the state, but only to shrink it, never to reimagine its fundamental purpose in an entangled world.</p>
-          </WPSubSection>
-          <WPSubSection title="The Centrist Reform Tanks (e.g., The Brookings Institution)">
-            <p>Centrist institutions attempt to patch the mechanical model. They advocate for moderate redistribution, human capital investment, and targeted regulations. However, they still operate entirely within the confines of neoclassical economics. They seek to make extraction more palatable, not to replace extraction with regeneration. Their research influences policy at the margins, but it leaves the foundational premises of modern capitalism untouched.</p>
-          </WPSubSection>
-          <WPSubSection title="The ESG and Impact Investment Consensus">
-            <p>The financial sector has responded to systemic crises with &ldquo;ESG&rdquo; and &ldquo;impact investing.&rdquo; However, as Bohm would note, this is often fragmented thought in action. ESG largely involves applying a thin ethical veneer to the exact same extractive capital structures. Impact investing frequently accepts a false dichotomy: that doing good requires sacrificing financial return. Furthermore, they lack a rigorous philosophical arm; they deploy capital without challenging the legal and ontological frameworks that make extraction possible in the first place.</p>
-          </WPSubSection>
-          <WPSubSection title="The Upstream Differentiator">
-            <p>The Upstream Institute is the first institution to fuse deep philosophy, rigorous policy research, and an executing endowment into a single entity. We do not write papers to be read; we write theories to be codified into financial products and state policy. We do not invest to generate alpha; we invest to prove that regeneration is the highest form of yield.</p>
-          </WPSubSection>
+        <WPSection id="losing-agency" title="Losing Agency of Thought">
+          <p>With the advent of mindless scrolling because of social media, dopamine hits and instant gratification from LLMs, agents, and chatbots are numbing us; it is slowing the thinking process but most importantly it is damaging our thoughts to even refresh or reboot, and challenge the assumptions of our own thoughts and start a thought process from scratch. We are slowly handing over agency of thought to the machine, in the name of artificial intelligence, that is still nothing but 0s and 1s, a black box to recognize patterns to spit out a cohesive-sounding sentence, but it is not thought, and if it is not, worth contemplating on as it misses the human ingenuity. The discoveries are not made on just some data and previous thoughts, but breakthroughs come to live when we can push boundaries of thought.</p>
         </WPSection>
 
-        <WPSection id="premises" title="Challenging the Fundamental Premises">
-          <p>The Upstream Institute is built to systematically dismantle and rebuild the foundational roles of our modern economy. We challenge four basic premises:</p>
-          <WPPremise number="1" label="The Role of the State"
-            oldPremise="The state is either an intrusive regulator to be minimized, or a night-watchman protecting property rights."
-            newPremise="The state is a Systemic Architect. Its role is not to correct market failures after the fact, but to design the legal, administrative, and infrastructural &ldquo;soil&rdquo; in which regenerative capital grows."
-          />
-          <WPPremise number="2" label="The Role of the Financier"
-            oldPremise="The financier is a passive allocator of capital seeking risk-adjusted financial returns, detached from the real-world ripple effects of their allocations."
-            newPremise="The financier is a Systemic Designer. Drawing on Bohm&rsquo;s concept of &ldquo;active information,&rdquo; we understand that money does not merely represent value&mdash;it shapes the material conditions of human life. Financiers must be structurally accountable for the social and ecological ripples of their capital."
-          />
-          <WPPremise number="3" label="The Role of People"
-            oldPremise="People are &ldquo;human capital&rdquo; or &ldquo;consumers&rdquo;&mdash;isolated economic units to be optimized."
-            newPremise="Drawing on the Japanese philosophy of Gapponism, people are entangled co-creators. Economic equality is not a luxury; it is a moral prerequisite. Without baseline security, individuals cannot participate in the co-creation of a thriving society."
-          />
-          <WPPremise number="4" label="The Role of Nature"
-            oldPremise="Nature is an externality, a bottomless sink for waste, or a passive asset class to be priced via carbon offsets."
-            newPremise="Nature is the foundational substrate of all capital. If nature degrades, capital degrades. Financial products must be structurally tethered to ecological regeneration, not abstract accounting tricks."
-          />
+        <WPSection id="finance-disconnect" title="The Finance Disconnect">
+          <p>The world of finance that I come from is not just a passive culprit, but actively involved in destroying the very essence of human principles, not because it is inherently evil, but rather because of the thought, or the lack of challenging, the status quo. Several assumptions about the current form of finance and capitalism are purely based on the opinions of neo-liberal economists like Milton Friedman, which have been overly amplified and adopted without knowing the facts or challenging the thoughts not just enough, but not at all, and that is the core issue, which has rotten the field of finance. With time, it has become more and more disconnected from the real world and the reality that humans live in and where nature exists.</p>
+          <p>Think tanks have become key in propagating a certain way of thinking, and it affects not just policymakers and capitalists but also ordinary people; it is so deeply entrenched now that we have lost the ability to think. From quantum computers to basic science, innovation and technological advancement have loosened our grip on thinking; as a result, we haphazardly fund abstractions, which shapes our worldview of the real world and the reality we live in.</p>
+          <p>We are living through the &ldquo;Great Divorce&rdquo;: the decoupling of the capital markets from the productive, real-world economy. When the Price-to-Earnings (PE) ratio rises to historically high levels, the real-world disconnect happens. And right now, that disconnect is threatening to send net real value creation &ldquo;into the toilet.&rdquo;</p>
+          <p>In the race between labor and capital, capital is lapping the field. Last year, real wages &mdash; the actual purchasing power of the average American worker &mdash; fell by 0.3% in a single month, reversing years of hard-won gains. Meanwhile, those sitting on assets saw a windfall. If you had your money in the S&P 500, you enjoyed an 18% return. To put that in human terms: the passive return on a $50,000 portfolio generated more income last year than the annual raise of a median worker. This is value extraction over value creation.</p>
+          <p>This has adverse effects on everything in the real world we live in&mdash;the world that is getting shaped by flawed thoughts, hence abstractions, overall affecting our perceptions.</p>
         </WPSection>
 
-        <WPSection id="operations" title="How We Operate: Features and Functions">
-          <p>To manifest this new school of thought, the Upstream Institute operates through three interconnected arms. This is not a loose coalition; it is a unified feedback loop where theory informs capital, and capital generates data that refines theory.</p>
-          <WPSubSection title="Arm 1: The Upstream Think Tank (Tool Builders)">
-            <p>Traditional think tanks produce opinion pieces and policy briefs. The Upstream Think Tank produces <em>tools</em>.</p>
+        <WPSection id="institutions-fail" title="Why Existing Institutions Fail">
+          <p>Institutions like the Hoover Institution, the Cato Institute, and the Brookings Institution operate on assumptions and ideas largely rooted in the Newtonian paradigm. They view the economy as a mechanistic system, devoid of humans and nature, and as independent agents, which is further from the truth. They optimize for maximum extraction in the name of shareholder value creation, as if that is the ultimate motto for human existence, survival, and purpose, which affects humanity in profound ways, as it challenges not only the role of the state but also challenges the role of even humans. It is based on the premise of only one thought, shareholder increase in dollar terms, which is a very short-sighted thing to do as it could be argued they support long-term shareholder destruction in value, as there is no value for the shareholder when there is no stable state to live, humans not flourishing and nature is dying.</p>
+          <p>These institutions seek to make extraction more palatable, not to replace extraction with regeneration, by looking at the interconnectedness of the system, and that the system change starts with the one thought, as it is the starting point, that affects the inner system and hence affects the whole system essentially, as everything is entangled with each other in profound ways.</p>
+        </WPSection>
+
+        <WPSection id="esg-lip-service" title="ESG: Lip Service">
+          <p>To me, the response to these neo-liberal thoughts in the form of ESG and impact investing is nothing but lip service, as this is often fragmented thought in action, applying a thin ethical veneer to the same extractive capital structures, which are based on one thought of shareholder optimization in the short term, forgetting what will happen in a generation or so. They accept a false dichotomy that doing good requires sacrificing financial return; this is also a fear-based assumption, not a factual one. They lack a rigorous philosophical arm; hence, they deploy capital without challenging the legal and ontological frameworks that make extraction possible in the first place.</p>
+        </WPSection>
+
+        <WPSection id="think-upstream" title="Think Upstream">
+          <p>We need to think upstream: fuse philosophy with rigorous research through challenging thought and dialogue, and deploy capital in ways that push science beyond the current limits of our thinking, fund breakthroughs, and compound impact for humanity and nature.</p>
+          <p>Essentially, Upstream Institute has three legs:</p>
+          <WPSubSection title="Think & Dialogue">
+            <p>Pushing the boundaries of thought by bringing dialogue back.</p>
             <ul>
-              <li><strong>The &ldquo;Terms for Humanity&rdquo; Library:</strong> We curate a free, global repository of legal clauses, term sheets, and governance templates that legally embed stakeholder voice and ecological limits into investment agreements.</li>
-              <li><strong>Humanized Finance Playbooks:</strong> Open-source architectural blueprints for Industrial Foundation 2.0, Serial Steward Models, and Impact-Aligned Executive Compensation.</li>
-              <li><strong>Philosophical Translation:</strong> We translate complex quantum ontologies and ethical frameworks into rigorous, actionable doctrines for policymakers and capitalists.</li>
+              <li>Content &mdash; Books, Podcasts</li>
+              <li>Research Papers, White Papers</li>
+              <li>Event Properties</li>
             </ul>
           </WPSubSection>
-          <WPSubSection title="Arm 2: The Nordic Social Policy Research Lab (Evidence Generators)">
-            <p>We do not speculate about what works; we prove it. Leveraging Finland&rsquo;s unique administrative infrastructure, the Lab treats the nation as a living laboratory.</p>
+          <WPSubSection title="Social Policy Lab">
+            <p>Leveraging Finland&rsquo;s/Nordics unique administrative infrastructure, the Lab treats the nation as a living laboratory to experiment with ideas.</p>
             <ul>
-              <li><strong>Population-Scale Testing:</strong> We co-design interventions with the Finnish government&mdash;focusing on child poverty, homelessness, and social connection&mdash;and track the macroeconomic results across entire demographics over time.</li>
-              <li><strong>Proving Entanglement:</strong> The Lab&rsquo;s primary function is to generate irrefutable data proving that social equity and economic dynamism are not opposed, but mathematically entangled.</li>
+              <li>Population-Scale Testing</li>
+              <li>Environmental-Scale Testing</li>
             </ul>
           </WPSubSection>
-          <WPSubSection title="Arm 3: The Upstream Endowment (The Execution Arm)">
-            <p>We do not just advocate for a new economy; we build it. The Endowment acts as an internal venture studio for financial products. We deploy permanent capital into structures that generate both financial yield and measurable healing.</p>
+          <WPSubSection title="Capital Deployment">
+            <p>That funds the research, basic sciences, innovation, and technology.</p>
             <ul>
-              <li><strong>SME Patient Capital Vehicles:</strong> Debt and equity hybrids that provide permanent capital to small and medium enterprises, prioritizing community resilience over extractive buyouts.</li>
-              <li><strong>Child Poverty Impact Bonds:</strong> Outcomes-based financial instruments that direct private capital toward social interventions, paying returns strictly based on measured, verified reductions in child poverty.</li>
-              <li><strong>Climate and Biodiversity Outcomes Bonds:</strong> Instruments that pay returns only when tangible ecosystem healing is scientifically verified, treating nature as a primary stakeholder.</li>
+              <li>Funds researchers &mdash; basic sciences and philosophers in the form of grants</li>
+              <li>Outcome Bonds to prove entanglement in the form of debt linked to impact outcomes</li>
+              <li>SME Patient Capital Vehicles: Debt and equity hybrids that provide permanent capital to small and medium enterprises, prioritizing community resilience over extractive buyouts.</li>
+              <li>Funding the Deep-tech in unusual ways with a long-term mindset and value creation for humanity and nature.</li>
             </ul>
           </WPSubSection>
-        </WPSection>
-
-        <WPSection id="endowment" title="A New Standard for Endowment Returns">
-          <p>Traditional endowments often target high nominal returns by heavily weighting illiquid venture capital and leveraged buyouts&mdash;strategies that frequently rely on extraction and the externalization of social costs.</p>
-          <p>The Upstream Endowment operates on a new thesis: <em>systemic risk is massively underpriced.</em> Climate disaster, social polarization, and supply chain collapse are not externalities; they are fundamental financial risks.</p>
-          <p>By investing exclusively in regenerative structures&mdash;evergreen funds, outcomes-based bonds, and patient SME financing&mdash;we demonstrate that structurally safe, ethical capital deployment generates resilient, sustainable yield over a generational horizon. We reject the false dichotomy that doing good requires losing money. By pricing in true systemic risk, we prove that regeneration is the most prudent long-term investment strategy.</p>
-        </WPSection>
-
-        <WPSection id="conclusion" title="Conclusion: Beyond Fragmented Thought">
-          <p>As David Bohm warned, we cannot solve our systemic crises using the same fragmented thought that created them. The traditional ecosystem of think tanks and financial institutions is endlessly rearranging the deck chairs on a sinking ship. They debate the mechanics of an engine that is fundamentally destroying the planet.</p>
-          <p>The Upstream Institute exists to build an entirely new engine.</p>
-          <p>By rooting the role of finance and economy in quantum philosophy, by producing rigorous new research for policymakers and capitalists, and by physically building the financial products&mdash;from SME financing to child poverty bonds&mdash;that execute this vision, we bypass the limits of fragmented thought.</p>
-          <p>We do not just analyze the system. We build the tools to replace it.</p>
           <p style={{ color: s.muted, fontStyle: 'italic' }}>
             From Finland, we invite the world to think upstream.
           </p>
         </WPSection>
 
-        {/* Authors - at the END */}
-        <WPSection id="authors" title="About the Authors">
+        {/* Upstream Thought Initiators */}
+        <WPSection id="thought-initiators" title="Upstream Thought Initiators">
           <WPAuthor name="Dr. Paavo Pylkk&auml;nen" role="Philosophical Director">
             Dr. Pylkk&auml;nen is a distinguished philosopher whose decades of work on physicist David Bohm&rsquo;s theories of quantum physics and consciousness provide the ontological foundation for the Upstream Institute. He has extensively researched the concept of the &ldquo;Implicate Order&rdquo;&mdash;the view that reality is an unbroken, flowing whole rather than a collection of isolated parts. At the Institute, Dr. Pylkk&auml;nen directs intellectual coherence, ensuring that all research, policy design, and capital deployment transcend the limitations of fragmented, mechanical thought.
           </WPAuthor>
