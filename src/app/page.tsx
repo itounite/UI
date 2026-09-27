@@ -409,6 +409,7 @@ function WhitePaper() {
         style={{ fontSize: 'clamp(0.9375rem, 1.15vw, 1.0625rem)', fontWeight: 300, lineHeight: 1.85, color: s.text }}
       >
         <WPSection id="where-thoughts" title="Where Do Thoughts Come From?">
+          <WPChart src="/charts/thought-starting-point.png" alt="Thought as the Starting Point" />
           <p>Where do thoughts come from? How do thoughts define the physical world we live in? Do we even think critically about our thoughts before jumping on the bandwagon to research basic sciences, innovate, create, and scale technologies, or even finance the sciences and technologies and seek returns from that?</p>
           <p>As David Bohm eloquently put it,</p>
           <blockquote className="my-6 pl-5 italic" style={{ borderLeft: `1px solid ${s.divider}`, color: s.muted }}>
@@ -418,10 +419,12 @@ function WhitePaper() {
         </WPSection>
 
         <WPSection id="losing-agency" title="Losing Agency of Thought">
+          <WPChart src="/charts/losing-agency.png" alt="Losing Agency of Thought" />
           <p>With the advent of mindless scrolling because of social media, dopamine hits and instant gratification from LLMs, agents, and chatbots are numbing us; it is slowing the thinking process but most importantly it is damaging our thoughts to even refresh or reboot, and challenge the assumptions of our own thoughts and start a thought process from scratch. We are slowly handing over agency of thought to the machine, in the name of artificial intelligence, that is still nothing but 0s and 1s, a black box to recognize patterns to spit out a cohesive-sounding sentence, but it is not thought, and if it is not, worth contemplating on as it misses the human ingenuity. The discoveries are not made on just some data and previous thoughts, but breakthroughs come to live when we can push boundaries of thought.</p>
         </WPSection>
 
         <WPSection id="finance-disconnect" title="The Finance Disconnect">
+          <WPChart src="/charts/great-divorce.png" alt="The Great Divorce" />
           <p>The world of finance that I come from is not just a passive culprit, but actively involved in destroying the very essence of human principles, not because it is inherently evil, but rather because of the thought, or the lack of challenging, the status quo. Several assumptions about the current form of finance and capitalism are purely based on the opinions of neo-liberal economists like Milton Friedman, which have been overly amplified and adopted without knowing the facts or challenging the thoughts not just enough, but not at all, and that is the core issue, which has rotten the field of finance. With time, it has become more and more disconnected from the real world and the reality that humans live in and where nature exists.</p>
           <p>Think tanks have become key in propagating a certain way of thinking, and it affects not just policymakers and capitalists but also ordinary people; it is so deeply entrenched now that we have lost the ability to think. From quantum computers to basic science, innovation and technological advancement have loosened our grip on thinking; as a result, we haphazardly fund abstractions, which shapes our worldview of the real world and the reality we live in.</p>
           <p>We are living through the &ldquo;Great Divorce&rdquo;: the decoupling of the capital markets from the productive, real-world economy. When the Price-to-Earnings (PE) ratio rises to historically high levels, the real-world disconnect happens. And right now, that disconnect is threatening to send net real value creation &ldquo;into the toilet.&rdquo;</p>
@@ -430,18 +433,22 @@ function WhitePaper() {
         </WPSection>
 
         <WPSection id="institutions-fail" title="Why Existing Institutions Fail">
+          <WPChart src="/charts/institutions-fail.png" alt="Why Existing Institutions Fail" />
           <p>Institutions like the Hoover Institution, the Cato Institute, and the Brookings Institution operate on assumptions and ideas largely rooted in the Newtonian paradigm. They view the economy as a mechanistic system, devoid of humans and nature, and as independent agents, which is further from the truth. They optimize for maximum extraction in the name of shareholder value creation, as if that is the ultimate motto for human existence, survival, and purpose, which affects humanity in profound ways, as it challenges not only the role of the state but also challenges the role of even humans. It is based on the premise of only one thought, shareholder increase in dollar terms, which is a very short-sighted thing to do as it could be argued they support long-term shareholder destruction in value, as there is no value for the shareholder when there is no stable state to live, humans not flourishing and nature is dying.</p>
           <p>These institutions seek to make extraction more palatable, not to replace extraction with regeneration, by looking at the interconnectedness of the system, and that the system change starts with the one thought, as it is the starting point, that affects the inner system and hence affects the whole system essentially, as everything is entangled with each other in profound ways.</p>
         </WPSection>
 
         <WPSection id="esg-lip-service" title="ESG: Lip Service">
+          <WPChart src="/charts/esg-lip-service.png" alt="ESG: Lip Service" />
           <p>To me, the response to these neo-liberal thoughts in the form of ESG and impact investing is nothing but lip service, as this is often fragmented thought in action, applying a thin ethical veneer to the same extractive capital structures, which are based on one thought of shareholder optimization in the short term, forgetting what will happen in a generation or so. They accept a false dichotomy that doing good requires sacrificing financial return; this is also a fear-based assumption, not a factual one. They lack a rigorous philosophical arm; hence, they deploy capital without challenging the legal and ontological frameworks that make extraction possible in the first place.</p>
         </WPSection>
 
         <WPSection id="think-upstream" title="Think Upstream">
           <p>We need to think upstream: fuse philosophy with rigorous research through challenging thought and dialogue, and deploy capital in ways that push science beyond the current limits of our thinking, fund breakthroughs, and compound impact for humanity and nature.</p>
           <p>Essentially, Upstream Institute has three legs:</p>
+          <WPChart src="/charts/three-legs.png" alt="Upstream Institute Three Legs" />
           <WPSubSection title="Think & Dialogue">
+            <WPChart src="/charts/leg1-think-dialogue.png" alt="Leg 1: Think and Dialogue" />
             <p>Pushing the boundaries of thought by bringing dialogue back.</p>
             <ul>
               <li>Content &mdash; Books, Podcasts</li>
@@ -450,6 +457,7 @@ function WhitePaper() {
             </ul>
           </WPSubSection>
           <WPSubSection title="Social Policy Lab">
+            <WPChart src="/charts/leg2-social-policy.png" alt="Leg 2: Social Policy Lab" />
             <p>Leveraging Finland&rsquo;s/Nordics unique administrative infrastructure, the Lab treats the nation as a living laboratory to experiment with ideas.</p>
             <ul>
               <li>Population-Scale Testing</li>
@@ -457,6 +465,7 @@ function WhitePaper() {
             </ul>
           </WPSubSection>
           <WPSubSection title="Capital Deployment">
+            <WPChart src="/charts/leg3-capital-deployment.png" alt="Leg 3: Capital Deployment" />
             <p>That funds the research, basic sciences, innovation, and technology.</p>
             <ul>
               <li>Funds researchers &mdash; basic sciences and philosophers in the form of grants</li>
@@ -465,6 +474,7 @@ function WhitePaper() {
               <li>Funding the Deep-tech in unusual ways with a long-term mindset and value creation for humanity and nature.</li>
             </ul>
           </WPSubSection>
+          <WPChart src="/charts/causal-chain.png" alt="Full Causal Chain: From Problem to Solution" />
           <p style={{ color: s.muted, fontStyle: 'italic' }}>
             From Finland, we invite the world to think upstream.
           </p>
@@ -510,6 +520,21 @@ function WhitePaper() {
 }
 
 /* ───────────────────────── WHITE PAPER COMPONENTS ───────────────────────── */
+
+function WPChart({ src, alt }: { src: string; alt: string }) {
+  const { theme } = useTheme()
+  const s = v(theme)
+  return (
+    <figure className="my-10 -mx-2 md:-mx-6">
+      <img
+        src={src}
+        alt={alt}
+        className="w-full rounded"
+        style={{ border: `1px solid ${s.divider}` }}
+      />
+    </figure>
+  )
+}
 
 function WPSection({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
   return (
