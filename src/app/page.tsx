@@ -310,6 +310,7 @@ const TOC = [
   { id: 'finance-disconnect', label: 'The Finance Disconnect' },
   { id: 'institutions-fail', label: 'Why Existing Institutions Fail' },
   { id: 'esg-lip-service', label: 'ESG: Lip Service' },
+  { id: 'bohm-implicate', label: "Bohm's Implicate Order" },
   { id: 'think-upstream', label: 'Think Upstream' },
   { id: 'thought-initiators', label: 'Upstream Thought Initiators' },
 ]
@@ -441,6 +442,14 @@ function WhitePaper() {
         <WPSection id="esg-lip-service" title="ESG: Lip Service">
           <WPChart src="/charts/esg-lip-service.png" alt="ESG: Lip Service" />
           <p>To me, the response to these neo-liberal thoughts in the form of ESG and impact investing is nothing but lip service, as this is often fragmented thought in action, applying a thin ethical veneer to the same extractive capital structures, which are based on one thought of shareholder optimization in the short term, forgetting what will happen in a generation or so. They accept a false dichotomy that doing good requires sacrificing financial return; this is also a fear-based assumption, not a factual one. They lack a rigorous philosophical arm; hence, they deploy capital without challenging the legal and ontological frameworks that make extraction possible in the first place.</p>
+        </WPSection>
+
+        <WPSection id="bohm-implicate" title="Bohm's Implicate Order &mdash; Entanglement">
+          <WPChart src="/charts/bohm-implicate-order.png" alt="Bohm's Implicate Order - Entanglement" />
+          <p>David Bohm didn&rsquo;t see reality as individual parts bumping into each other; rather, he saw them as one cohesive system, entangled with each other, like one unbroken, flowing whole, like a river, which he essentially called an implicate order. In essence, our thoughts and the world are not two different things; they are essentially one and deeply entangled. They are ONE system: the inner system&mdash;our thoughts, assumptions, perceptions, and abstraction&mdash;and the outer system i.e., finance, society, nature, technology) are not separate, but are deeply entangled.</p>
+          <p>Most of us try to change the outer system without realizing the underlying thought hasn&rsquo;t changed; the outer system just rearranges itself into the same old patterns because we haven&rsquo;t effectively changed our inner system of thoughts. If we shift the inner system, it reshapes the whole outer system. Also, when we change the outer system, it changes the inner system and feeds back into thought; it becomes a loop, not a line.</p>
+          <p style={{ fontWeight: 500 }}>We can&rsquo;t fix the world without fixing the thought first.</p>
+          <p>That&rsquo;s the whole point&mdash;we need to go upstream to the source; there is no other alternative.</p>
         </WPSection>
 
         <WPSection id="think-upstream" title="Think Upstream">
